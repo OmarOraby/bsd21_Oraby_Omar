@@ -46,6 +46,12 @@ If you want to have input to this project and would like to improve it with new 
 My name is Omar and I am a student at the FH Campus 02.
 
 
+**Link to my github profile** 
+[link](https://github.com/OmarOraby)
+
+**Link to my university**
+[link](https://www.campus02.at)
+
 ### **Link to exercise 1**
 [exercise1.md](exercise1.md)
 
