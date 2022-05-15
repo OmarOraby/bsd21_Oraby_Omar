@@ -13,4 +13,11 @@ public class Calculator {
     public double multiply(double number1, double number2){
         return number1*number2;
     }
+    public double factorial(int f) {
+        int result = 1;
+        for (int i = 1; i <= f; i++) {
+            result = result * i;
+        }
+        return result;
+    }
 }
