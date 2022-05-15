@@ -62,6 +62,6 @@ My name is Omar and I am a student at the FH Campus 02.
 [exercise3.md](exercise3.md)
 
 ### Link to exercise 4
-[exercise3.md](exercise4.md)
+[exercise4.md](exercise4.md)
 
 ### Link to exercise 4
