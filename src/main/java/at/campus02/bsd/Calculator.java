@@ -2,7 +2,9 @@ package at.campus02.bsd;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
+/**
+ * @author Omar Oraby
+ */
 public class Calculator {
 
 
