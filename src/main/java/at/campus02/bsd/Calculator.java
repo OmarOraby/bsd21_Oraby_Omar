@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
  * @author Omar Oraby
  */
 public class Calculator {
-
+private static Logger logger = LogManager.getLogger();
 
     /**
      * Adds two numbers
@@ -15,8 +15,9 @@ public class Calculator {
      * @return The result
      */
     public double add(double number1, double number2){
-
-        return number1+number2;
+    double result = number1+number2;
+        logger.debug(number1 + "+" + number2);
+        return result;
 
     }
 
@@ -27,7 +28,9 @@ public class Calculator {
      * @return The result
      */
     public double minus(double number1, double number2){
-        return number1-number2;
+        double result = number1-number2;
+        logger.debug(number1 + "-" + number2);
+        return result;
     }
 
     /**
@@ -37,7 +40,13 @@ public class Calculator {
      * @return The result
      */
     public double divide(double number1, double number2){
-        return number1/number2;
+        double result = number1/number2;
+        logger.debug(number1 + "/" + number2);
+        if(number2 == 0){
+            logger.error(number2 + "Zero division, not allowed");
+            throw new ArithmeticException();
+        }
+        return result;
     }
 
     /**
@@ -47,7 +56,9 @@ public class Calculator {
      * @return The result
      */
     public double multiply(double number1, double number2){
-        return number1*number2;
+        double result = number1*number2;
+        logger.debug(number1 + "*" + number2);
+        return result;
     }
 
     /**
@@ -56,6 +67,7 @@ public class Calculator {
      * @return the faculty of the number
      */
     public double factorial(int f) {
+        logger.debug("Faculty of " + f);
         int result = 1;
         for (int i = 1; i <= f; i++) {
             result = result * i;
