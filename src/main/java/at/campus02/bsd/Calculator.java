@@ -39,7 +39,7 @@ private static Logger logger = LogManager.getLogger();
      * @param number2 second number
      * @return The result
      */
-    public double divide(double number1, double number2){
+    public double divide(double number1, double number2) throws ArithmeticException{
         double result = number1/number2;
         logger.debug(number1 + "/" + number2);
         if(number2 == 0){

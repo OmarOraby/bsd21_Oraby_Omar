@@ -14,6 +14,6 @@ public class Main {
 //        calculator.minus(5,1);
 //        System.out.println(calculator.divide(15,5));
         logger.info("Message for info logger");
-        logger.error("Eroor");
+        logger.error("Error");
     }
 }
