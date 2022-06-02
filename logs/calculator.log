@@ -1,0 +1,9 @@
+2022:06:02 - 20:39:06.384 [main] INFO  at.campus02.bsd.Main - Message for info logger
+2022:06:02 - 20:39:06.384 [main] ERROR at.campus02.bsd.Main - Eroor
+2022:06:02 - 20:39:43.257 [main] DEBUG at.campus02.bsd.Calculator - 1.0+1.0
+2022:06:02 - 20:39:43.273 [main] DEBUG at.campus02.bsd.Calculator - 2.0*4.0
+2022:06:02 - 20:39:43.273 [main] DEBUG at.campus02.bsd.Calculator - Faculty of 1
+2022:06:02 - 20:39:43.273 [main] DEBUG at.campus02.bsd.Calculator - Faculty of 5
+2022:06:02 - 20:39:43.273 [main] DEBUG at.campus02.bsd.Calculator - Faculty of 6
+2022:06:02 - 20:39:43.273 [main] DEBUG at.campus02.bsd.Calculator - 8.0/2.0
+2022:06:02 - 20:39:43.288 [main] DEBUG at.campus02.bsd.Calculator - 6.0-1.0
