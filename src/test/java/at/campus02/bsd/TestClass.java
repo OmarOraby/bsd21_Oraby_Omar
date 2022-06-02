@@ -7,6 +7,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class TestClass {
+
+    /**
+     * Creates an object
+     */
     static private Calculator calculator;
     @BeforeEach
     public void setup(){
@@ -14,6 +18,9 @@ public class TestClass {
     }
     static private double result;
 
+    /**
+     * Tests to check if the methods are correctly implemented
+     */
     @Test
     public void testAdd1(){
         Assertions.assertEquals(5, result = 2 + 3);
